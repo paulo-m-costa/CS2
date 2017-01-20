@@ -1,0 +1,32 @@
+Currently logging to "gdb.log".
+Logs will be appended to the log file.
+Output is being logged and displayed.
+Reading symbols from C:\Users\Miguel\Desktop\Junior Year\CS 2\cs2_week1_2016\debugging2.exe...done.
+Breakpoint 1 at 0x401415: file debugging2.cpp, line 76.
+Starting program: C:\Users\Miguel\Desktop\Junior Year\CS 2\cs2_week1_2016\debugging2.exe 
+[New Thread 2932.0x323c]
+[New Thread 2932.0x177c]
+[New Thread 2932.0x1d98]
+[New Thread 2932.0x326c]
+
+Breakpoint 1, main (argc=1, argv=0x21718) at debugging2.cpp:76
+76	    cout << divide(15625, 37) << endl;  // should print 422
+divide (a=15625, b=37) at debugging2.cpp:33
+33	    unsigned int x = 0, y = 0, z = sizeof(a) * 8;
+#0  divide (a=15625, b=37) at debugging2.cpp:33
+#1  0x00401429 in main (argc=1, argv=0x21718) at debugging2.cpp:76
+$1 = 3525565223
+$2 = 1995362800
+$3 = 15625
+$4 = 37
+$5 = 422
+35	    while (z != 0)
+$6 = 0
+$7 = 0
+$8 = 15625
+$9 = 37
+A debugging session is active.
+
+	Inferior 1 [process 2932] will be killed.
+
+Quit anyway? (y or n) error return C:/MinGW/msys/1.0/src/gdb/gdb-7.5-1/src/gdb-7.5/gdb/windows-nat.c:1272 was 5

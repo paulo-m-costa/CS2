@@ -1,0 +1,17 @@
+The greedy solution will result in a deadlock due to the inherent nature of its
+algorithm. Each philosopher starts by taking the fork to the left of them. They
+then attempt to take the fork to their right. However, every fork has already 
+been picked up at this instance and is thus in 'locked' position, meaning that
+every philosopher must wait for someone to put down their fork. Since no 
+philosopher will put down their single fork, they will remain in a deadlock.
+
+The maximum number of philosophers that can sit at any given time is four (4).
+I arrived at this by considering that if there are only five forks available 
+and all the philosophers take the left fork, there will still be one remaining
+philosopher that can access the right fork and then eat, averting deadlock.
+
+If all the philosophers began with a dirty, left fork, we would deadlock. This 
+is because intially, each philosopher would request the right fork from his 
+neighbor. The neighbor would give the right fork after cleaning it and we would
+end up with each philosopher having a clean fork in his right hand, so nobody
+would be able to eat.

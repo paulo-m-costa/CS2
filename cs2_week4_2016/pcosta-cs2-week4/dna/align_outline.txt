@@ -1,0 +1,20 @@
+To implement this algorithm, we will first get the two initial strings and 
+the memoization data structure as the arguments for the recursive function
+call. We then check if the strings form a key stored in the data structure.
+In the event that it is, we return its corresponding value. Otherwise we 
+continue to loop. We will now check the base case, which is where one of the
+strings is empty i.e. zero. If such is the case, we return the object that
+contains the correct score and string. Otherwise we continue. It will be 
+necessary to recurse three times to retrieve three objects. One call handles
+the case where the first string contains a gap and the second string contains
+a character. The second call handles the case where this scenario is reversed.
+The final call handles the case where both strings contain characters i.e. no
+gaps. Each time we do this, the first character of one or both of the strings
+is removed, allowing the function to compare just one pair of characters. We
+are able to test every possible alignment this way. Once we get these objects,
+we will modify their data structure to ensure that the correct operations were
+performed. Finally, we compare the scores for these three objects and store the
+largest one in our memoization data structure, which is then returned.
+
+For each possible alignment, we attribute scores of -5, -1, and 2 for cases
+where the are gaps, character mismatches, and character matches respectively.

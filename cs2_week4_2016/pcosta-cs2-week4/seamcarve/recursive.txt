@@ -1,0 +1,19 @@
+The described seam carving program makes use of dynamic progamming by storing
+results of sub-calculations in the row of the image it is currently iterating
+through. By doing so, it can use the values in the row directly above it and
+store the subtotal cost in the current row as opposed to having to go back to
+the first row every time it finishes calculating the final cost of a seam. 
+This massively reduces the amount of computation required.
+
+Without dynamic programming, we could implement the seam carving algorithm
+recursively by analyzing all the possible seams. Asumming seams are going down,
+the base case would be when the image's last row is reached. For every single
+recursion, the algorithm would move from one pixel to every other pixel in the
+downward direction. This would be 3 pixels unless the initial pixel is on the
+edge of the image, in which case it would be 2 pixels. Such a method would have
+to be called on every pixel in the first row of the image.
+
+The complexity of this brute force algorithm for an NxN image is O(N*3^N). 
+
+For example, a 50x50 image would take 3.58949e16 seconds or about
+1 billion years to process if 1 billion computations were made per second.

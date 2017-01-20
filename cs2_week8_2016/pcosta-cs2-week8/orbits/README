@@ -1,0 +1,6 @@
+Forward - The orbit shrinks as time evolves.
+
+Backward - The orbit expands as time evolves.
+
+Sympletic - The orbit remains constant over time. This is the most accurate
+system since the orbital energy appears to remain constant.

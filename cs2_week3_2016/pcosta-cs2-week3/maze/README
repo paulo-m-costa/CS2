@@ -1,0 +1,14 @@
+BFS will typically be faster than DFS for small mazes where the exit is not too far ("deep")
+from the start. Unlike DFS, BFS always finds the shortest route. Additionally, if there are a 
+variety of possible paths, then BFS might still be faster, since the DFS could explore all
+other paths before choosing the correct one.
+
+DFS is not without its merits though. For one, it takes up less memory than BFS. For mazes that
+branch a lot (large breadth) but have relatively short branches (small depth), DFS may be faster.
+Finally, DFS may luck out find the correct path right away.
+
+Stacks are used when storing reusable items e.g. plates. Usually, the plate at the top of the
+stack is used first. The bottom plate can only be accessed by displacing all those on top of it.
+
+Queues are involved in any activity involving waiting times, where people usually line up and are 
+serviced on a first-come, first-serve basis.

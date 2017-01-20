@@ -1,0 +1,24 @@
+﻿Influenza A virus (A/Thailand/CU-B3689/2010(H1N1)) polymerase PB1 (PB1) gene, partial cds; and PB1-F2 gene, complete sequence
+http://www.ncbi.nlm.nih.gov/nuccore/CY090185
+
+taaaaattcc agcgcaaaat gccataagca ccacattccc ttatactgga gatcctccat acagccatgg aacaggaaca ggatacacca tggacacagt aaacagaaca caccaatact cagaaaaggg aaagtggacg acaaacacag agactggtgc accccagctc aacccgattg atggaccact acctgaggat aatgaaccaa gtgggtatgc acaaacagac tgtgttctag aggctatggc tttccttgaa gaatcccacc caggaatatt tgagaattca tgccttgaa
+      
+Influenza A virus (A/Brazil/P112/2009(H1N1)) segment 7 matrix protein 1 (M1) gene, partial cds
+http://www.ncbi.nlm.nih.gov/nuccore/JX403991
+
+tgcagcgtag acgctttgtc caaaatgccc taaatgggaa tggggacccg aacaacatgg atagagcagt taaactatac aagaagctca aaagagaaat aacgttccat ggggccaagg aggtgtcact aagctattca actggtgcac ttgccagttg catgggcctc atatacaaca ggatgggaac agtgaccaca gaagctgctt ttggtctagt gtgtgccact tgtgaacaga ttgctgattc acagcatcgg tctcacagac aaatggctac taccaccaat ccactaatc
+
+Results:
+taaaaattcc agcgcaaaat gccataagca ccacattccc ttatactgga gatcctccat acagccatgg aacaggaaca ggatacacca tggacacagt aaacagaaca caccaatact cagaaaaggg aaagtggacg acaaacacag agactggtg  c accccagctc aacccgattg atggaccact acctgaggat aatgaaccaa gtgggtatgc acaaac agac tgtg ttct ag  aggcta tggc  tttc  cttgaa gaatcccacc caggaat att tgagaattca tgcc ttga a
+       tgc agcgtag a cg c tttgtc caaaatgccc taaatgggaa tggggacccg aacaacatgg atagagcagt taaactatac aagaagctca aaagagaaat aacgttccat ggggccaagg  aggt gtcact aagctattca actggtgcac ttgccagttg catgggcctc atatacaaca ggatgggaac agtgaccaca gaagctgctt ttggtctagt gtgtgccact tgtgaacaga ttgctgattc acagcatcgg tctcacagac aaatggctac taccaccaat ccactaatc
+sssssss|*|s||||*|**|s*|s|s|**|**||*|*||*|||||*|****|*||******||**||****|||||||****|*|**|**|***|***|**||**|***||||*||||**|*||******||**|***|*|||s|*||s|*|****||*|*****|*|||||||tt||***||||*|*|*|***|**|*|||**||*||*|***||*|*|*||*|||*|**|||**|*|****|*****|t||***||||t**||t*|t*|****|t|*||t**|||tt|***|**|**||*|||******|||t**|*********||*|*||t*|*|t*
+
+Alignment Score:
+11
+
+Note that both strings are exactly 299 characters long (ignoring gaps).
+
+This comparison highlights the discrepancy between two genes found in the same strain of the Influenza A virus.
+Despite still being positive, an alignment score of just 11 for such long strings indicates wild dissimilarity.
+This shows just how important it is to sequence all components of every strain of influenza, since we cannot
+assume that any sequences will be identical.
